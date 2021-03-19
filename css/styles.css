@@ -1,4 +1,4 @@
- #about-me{
+#about-me{
   border-radius: 100%;
   width: 25%;
   padding: 10px;
@@ -14,6 +14,9 @@
 }
 #banner {
   text-align: center;
+}
+#interests {
+  padding: 10px;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -32,3 +35,7 @@ body {
   text-align: center;
   box-sizing: auto ;
 }
+.inner-card {
+border-radius: 100%;
+}
+
