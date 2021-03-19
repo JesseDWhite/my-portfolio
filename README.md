@@ -15,6 +15,6 @@ _This web application will have three seperate pages detailing all of my persona
 ## Known Bugs
 * _The resume page might not scale correctly on small screens._
 ## License
-_MIT (c) Jesse White_
+_MIT (c)2021 Jesse White_
 ## Contact Information
 Jesse White _- jesse.white6@gmail.com_
