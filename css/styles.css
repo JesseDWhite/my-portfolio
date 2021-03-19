@@ -36,4 +36,7 @@ body {
 .inner-card {
 border-radius: 100%;
 }
+.card-header {
+  background-color: #37474F;
+}
 
