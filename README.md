@@ -1,5 +1,5 @@
 # my-portfolio
-#### jessedwhite.github.io/my-portfolio/resume.html
+#### jessedwhite.github.io/my-portfolio/index.html
 #### A web application to display personal experience and goals
 #### By Jesse White
 ## Technologies Used
