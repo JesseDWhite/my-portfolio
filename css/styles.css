@@ -1,13 +1,13 @@
  #headshot{
   border-radius: 100%;
   width: 25%;
-  text-align: center;
   padding: 10px;
   margin-top: 10px;
   margin-left: 10px;
 }
 .date {
   float: right;
+
 }
 #banner {
   text-align: center;
