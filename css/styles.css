@@ -1,6 +1,10 @@
- #headshot {
+ #headshot{
   border-radius: 100%;
   width: 25%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .date {
   float: right;
@@ -10,4 +14,7 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+.card-body {
+  padding: 20px;
 }
