@@ -30,4 +30,5 @@ body {
 }
 .row {
   text-align: center;
+  box-sizing: auto ;
 }
