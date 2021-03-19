@@ -2,3 +2,6 @@
   width: 10%;
   border-radius: 100%;
 }
+.date {
+  float: right;
+}
