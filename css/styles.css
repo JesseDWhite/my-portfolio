@@ -1,9 +1,13 @@
  #headshot {
   border-radius: 100%;
+  width: 25%;
 }
 .date {
   float: right;
 }
 #banner {
   text-align: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
