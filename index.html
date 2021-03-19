@@ -15,16 +15,33 @@
 </head>
 
 <body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jesse's Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Current Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="container">
     <div class="card text-center">
-      <div class="card-header">
-        My Portfolio
-        <div>
-          <img src="photos/family-photo.jpg" alt="photo of me and my family" class="img-fluid">
-        </div>
-      </div>
+      <img src="photos/family-photo.jpg" alt="photo of me and my family" class="img-fluid">
       <div class="card-body">
-        <h5 class="card-title">Jesse Daniel White</h5>
+        <h5 class="card-title"><strong>Jesse Daniel White</strong></h5>
         <p class="card-text">Thank you for coming to my page. Please see below for a brief description of me and my
           drives.</p>
         <a href="resume.html" class="btn btn-primary">See Resume</a>
@@ -100,62 +117,64 @@
       <div class="card-body text-center">
         <h2>Personal Interests and Hobbies</h2>
       </div>
-    </div>
-    <div class="card" id="interests">
-      <div class="row">
-        <div class="col-sm-6 col-lg-3">
-          <div class="card border-white">
-            <img src="photos/snowboarding.jpg" alt="photo of me and my brother snowboarding" class="inner-card">
-            <div class="card-body">
-              <h2>Snowboarding</h2>
-              My brother and I have both picked up snowboarding as a hobby this year. Neither of us have been
-              snowboarding
-              since we were children. While I had some free time before school started, him and I would try and go every
-              weekend this season.
+      <div class="card border-white" id="interests">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-white">
+              <img src="photos/snowboarding.jpg" alt="photo of me and my brother snowboarding" class="inner-card">
+              <div class="card-body">
+                <h2>Snowboarding</h2>
+                My brother and I have both picked up snowboarding as a hobby this year. Neither of us have been
+                snowboarding
+                since we were children. While I had some free time before school started, him and I would try and go
+                every
+                weekend this season.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="card border-white">
-            <img src="photos/guitar.jpg" alt="photo of one of my guitars" class="inner-card">
-            <div class="card-body">
-              <h2>Music</h2>
-              I have been playing music since I was in middle school. I started with the alto saxaphone and switched to
-              guiter in highschool. I played in a few different bands during that time and now enjoy the recording
-              process
-              of music.
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-white">
+              <img src="photos/guitar.jpg" alt="photo of one of my guitars" class="inner-card">
+              <div class="card-body">
+                <h2>Music</h2>
+                I have been playing music since I was in middle school. I started with the alto saxaphone and switched
+                to
+                guiter in highschool. I played in a few different bands during that time and now enjoy the recording
+                process
+                of music.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="card border-white">
-            <img src="photos/camping.jpg" alt="photo of my view from the inside of a kayak while camping"
-              class="inner-card">
-            <div class="card-body">
-              <h2>Camping</h2>
-              Growing up in Oregon meant that my family was big into camping when I was young. We would go camping
-              upwards
-              of five to ten times a year to varying different areas. As an adult, I try to go as much as I can with my
-              dad, but life has a way of making getting out difficult.
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-white">
+              <img src="photos/camping.jpg" alt="photo of my view from the inside of a kayak while camping"
+                class="inner-card">
+              <div class="card-body">
+                <h2>Camping</h2>
+                Growing up in Oregon meant that my family was big into camping when I was young. We would go camping
+                upwards
+                of five to ten times a year to varying different areas. As an adult, I try to go as much as I can with
+                my
+                dad, but life has a way of making getting out difficult.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="card border-white">
-            <img src="photos/backpacking.jpg" alt="photo of me backpacking waldo lake" class="inner-card">
-            <div class="card-body">
-              <h2>Backpacking</h2>
-              Simillar to camping, my father and I will try and make it out backpcking whenever we can. Our last trip
-              was
-              a three day excursion around Waldo Lake in Central Oregon. We covered approximatley 20 miles of trail
-              during
-              our time there and stayed at an established campground at the end of the journy.
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-white">
+              <img src="photos/backpacking.jpg" alt="photo of me backpacking waldo lake" class="inner-card">
+              <div class="card-body">
+                <h2>Backpacking</h2>
+                Simillar to camping, my father and I will try and make it out backpcking whenever we can. Our last trip
+                was
+                a three day excursion around Waldo Lake in Central Oregon. We covered approximatley 20 miles of trail
+                during
+                our time there and stayed at an established campground at the end of the journy.
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </body>
 
 </html>
